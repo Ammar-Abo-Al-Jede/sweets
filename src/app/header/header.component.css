@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg-color: #020312;
+  --text-color: #fff;
+  --main-color: #eb4a4a;
+  --second-color: gray;
+  --other-color: #12141c;
+  --h1-font: 5.2rem;
+  --h2-font: 3.5rem;
+  --p-font: 1.1rem;
+}
+
+body {
+  background: #020312;
+  color: #fff;
+}
+
+header {
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  background: transparent;
+  padding: 22px 16%;
+  border-bottom: 1px solid transparent;
+  transition: all .40s ease;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 10px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 10px 25px;
+  margin: 0 2px;
+  border-radius: 0.5rem;
+  transition: all .40s ease;
+  font-family: 'Amiri', serif;
+}
+
+.navbar a:hover {
+  box-shadow: 0 0 15px grey;
+}
+
+#menu-icon {
+  font-size: 36px;
+  color: #fff;
+  z-index: 10001;
+  cursor: pointer;
+  display: none;
+  margin-top: 20px;
+}
+.xlogo{
+  display: none;
+}
+
+/* Media Query */
+@media (max-width: 1325px){
+	header{
+		padding: 16px 3%;
+	}
+	header.sticky{
+		padding: 8px 3%;
+	}
+	section{
+		padding: 130px 3% 60px;
+	}
+}
+
+@media (max-width: 970px){
+	:root{
+		--h1-font: 4.2rem;
+	  --h2-font: 2.9rem;
+	  --p-font: 1rem;
+	}
+	section{
+		padding: 70px 3% 60px;
+	}
+	.home{
+		height: 85vh;
+	}
+	.about{
+		grid-template-columns: 1fr;
+	}
+	.about-img{
+		text-align: center;
+	}
+	.contact{
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width: 830px){
+	#header{
+    position: relative;
+  }
+  #menu-icon{
+		display: block;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+  }
+	.navbar{
+		position: fixed;
+		top: -600px;
+		right: 0;
+		left: 0;
+		display: flex;
+		flex-direction: column;
+		background: #12141cee;
+		text-align: left;
+		transition: all .40s ease;
+	}
+	.navbar a{
+		display: block;
+		padding: 1rem;
+		margin: 1rem;
+	}
+	.navbar.active{
+		top: 0;
+	}
+	:root{
+		--h1-font: 3.7rem;
+	  --h2-font: 2.7rem;
+	}
+  .xlogo{
+    display: block;
+    position: fixed;
+    left: 10px;
+    top: 18px;
+  }
+}
+.getstarted,.getstarted:focus {
+  /* background: royalblue; */
+  padding: 8px 20px;
+  margin-left: 30px;
+  border-radius: 4px;
+  color: #fff;
+  box-shadow: 0 0 15px royalblue;
+  }
+.getstarted:hover,.getstarted:focus:hover {
+  color: #fff;
+  background: royalblue;
+  }

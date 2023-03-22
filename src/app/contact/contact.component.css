@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&display=swap');
+.about-us{
+  color: #f68c1b;
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Amiri', serif;
+  box-shadow: 0 0 35px #607D8B;
+  width: 20%;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 140px;
+}
+ .content{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.content .left-side{
+  height: 100%;
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  gap: 100px;
+  position: relative;
+  font-family: 'Amiri', serif;
+}
+.content .left-side::before{
+  content: '';
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #afafb6;
+}
+.content .left-side .details{
+  margin: 14px;
+  text-align: center;
+}
+.details a{
+  cursor: pointer;
+  font-family: 'Amiri', serif;
+}
+.content .left-side .details i{
+  font-size: 30px;
+  color: white;
+  margin-bottom: 10px;
+}
+.content .left-side .details .topic{
+  font-size: 18px;
+  font-weight: 500;
+  color: goldenrod;
+  font-family: 'Amiri', serif;
+}
+.content .left-side .details .text-one,
+.content .left-side .details .text-two{
+  font-size: 14px;
+  color: #afafb6;
+  font-family: 'Amiri', serif;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: #afafb6;
+}
+@media (max-width: 950px) {
+  .container{
+    width: 90%;
+    padding: 30px 40px 40px 35px ;
+  }
+.about-us{
+  width: 28%;
+  font-size: 35px;
+}
+}
+@media (max-width: 820px) {
+  .about-us{
+    margin-top: 40px;
+    width: 35%;
+    font-size: 20px;
+  }
+  .container{
+    margin: 20px 0;
+    height: 100%;
+  }
+   .content{
+    flex-direction: column-reverse;
+  }
+  .content .left-side{
+   width: 100%;
+   flex-direction: column;
+   margin-top: 0px;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 20px;
+ }
+  .content .left-side::before{
+   display: none;
+ }
+  .content .right-side{
+   width: 100%;
+   margin-left: 0;
+ }
+}

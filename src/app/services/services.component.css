@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&display=swap');
+#fourSection{
+  position: relative;
+  top: 80px;
+}
+#fourSection .orange{
+  color: #ff7d00;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Amiri', serif;
+}
+#fourSection .mainTitle{
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Amiri', serif;
+}
+.allService{
+  margin-top: 100px;
+  min-height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  margin: 100px auto;
+}
+.allcard2{
+  width: 240px;
+  height: 250px;
+  border-radius: 56px;
+  position: relative;
+  transition: all 1s;
+  border: 2px solid;
+}
+.allcard2 img{
+  position: absolute;
+  top: -60px;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50px;
+  transition: all 1s;
+}
+.allcard2 img:hover{
+  transform: translateX(0.5px);
+}
+.txt2 h1{
+  position: absolute;
+  right: 0;
+  left: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: #ff7d00;
+  opacity: 1;
+  margin-top: 75px;
+  padding-bottom: 0px;
+  transition: all 1s;
+  font-family: 'Amiri', serif;
+}
+.txt2 p{
+  position: absolute;
+  right: 0;
+  left: 0;
+  text-align: center;
+  top: 120px;
+  color: white;
+  font-size: 20px;
+  line-height: 40px;
+  font-family: 'Amiri', serif;
+}
+@media(max-width:700px){
+  #fourSection{
+      top: 100px;
+  }
+  .allcard2{
+      margin:  0 auto;
+      margin-top: 100px;
+  }
+  .allService{
+      margin-top: 0;
+  }
+  #fourSection .mainTitle{
+    font-size: 26px;
+  }
+}

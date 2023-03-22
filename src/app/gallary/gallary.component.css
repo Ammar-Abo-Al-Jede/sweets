@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&display=swap');
+.tit1{
+  color: #f68c1b;
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Amiri', serif;
+  box-shadow: 0 0 35px #607D8B;
+  width: 20%;
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: 80px;
+  font-size: 30px;
+}
+.carousel{
+  width: 50% !important;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.carousel-inner{
+  width: 100% !important;
+}
+img{
+  border-radius: 16px;
+  width: 100% !important;
+}
+.cars2{
+  padding-bottom: 100px !important;
+}
+@media(max-width:700px){
+  .tit1{
+    width: 28%;
+    font-size: 35px;
+  }
+}
+@media(max-width:600px){
+  .tit1{
+    margin-top: 80px;
+    width: 35%;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .carousel{
+    width: 90% !important;
+  }
+  .cars2{
+    padding-bottom: 100px !important;
+  }
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&display=swap');
+.about-us{
+  color: #f68c1b;
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Amiri', serif;
+  box-shadow: 0 0 35px #607D8B;
+  width: 20%;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+#about{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  gap: 160px;
+  align-items: center;
+  margin-top: 30px;
+  justify-content: center;
+}
+h3{
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 40px;
+  text-align: center;
+  font-family: 'Amiri', serif;
+  width: 90%;
+  line-height: 80px;
+}
+.txt{
+  display: flex;
+  flex-direction:column;
+  gap:20px;
+  width: 50%;
+}
+.im{
+  width: 30%;
+}
+img{
+  width: 28%;
+  border-radius: 50%;
+  margin-right: 8%;
+}
+.bilal{
+  color: #f68c1b;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -30px;
+  font-family: 'Amiri', serif;
+}
+@media(max-width:700px){
+  .about-us{
+    width: 28%;
+    font-size: 35px;
+  }
+  img{
+    width: 60%;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+  }
+  h3{
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0;
+    font-size: 25px;
+  }
+  .txt{
+    width: 80%;
+  }
+}
+@media(max-width:600px){
+  .about-us{
+    margin-top: 40px;
+    width: 35%;
+    font-size: 20px;
+    padding: 10px;
+  }
+  img{
+    width: 85%;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -150px;
+  }
+  h2{
+    font-size: 25px;
+    text-align: center;
+  }
+  h3{
+    font-size: 20px;
+    text-align: center;
+  }
+  #home{
+    margin-top: 100px;
+  }
+  .bilal{
+    font-size: 20px;
+  }
+}

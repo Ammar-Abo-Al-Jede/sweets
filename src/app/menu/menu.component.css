@@ -1,0 +1,213 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&display=swap');
+#menu{
+  margin-top: 60px;
+}
+.men{
+  color: #f68c1b;
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Amiri', serif;
+  box-shadow: 0 0 35px #607D8B;
+  width: 20%;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.allMen{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.box {
+  padding: 45px;
+  background: #12141c;
+  border-top: 8px solid transparent;
+  border-radius: 0.5rem;
+  transition: all .40s ease;
+  height: 550px;
+  width: 450px;
+  box-shadow: 0 0 15px goldenrod;
+}
+.card{
+  background-color: #110C16 !important;
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin-top: 80px;
+}
+.allList{
+  color: white;
+  font-weight: bold;
+  padding-right: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 60px;
+}
+.ulForMan{
+  color: white;
+  font-weight: bold;
+  padding-right: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 60px;
+}
+ul{
+  margin-top: 50px;
+  font-size: 18px;
+}
+.ul2 li{
+  text-align: right;
+}
+.tit{
+  font-family: 'Amiri', serif;
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  margin-top: -20px !important;
+}
+.carousel , .slide{
+  width:85% !important;
+  margin: 0 auto !important;
+  margin-top: 40px !important;
+}
+img{
+  border-radius: 16px;
+  width: 100% !important;
+}
+.box h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 15px 0;
+  transition: all .40s ease;
+}
+
+.box p {
+  color: var(--second-color);
+  font-size: var(--p-font);
+  line-height: 30px;
+}
+
+.box:hover {
+  transform: scale(1.01) translateY(-5px);
+  border-top: 5px solid goldenrod;
+}
+.box:hover {
+  transform: scale(1.01) translateY(-5px);
+  border-top: 5px solid goldenrod;
+}
+.man{
+  width:460px !important;
+}
+@media (max-width: 830px){
+  #services{
+    margin-top: -410px;
+  }
+
+	:root{
+		--h1-font: 3.7rem;
+	  --h2-font: 2.7rem;
+	}
+  .services-content{
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .box{
+    padding: 20px;
+    width: 400px;
+  }
+  .main-text h2{
+    font-size: 30px;
+  }
+  .main-text h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .card{
+    margin-top: 80px;
+  }
+  ul{
+    font-size: 16px;
+  }
+  .tit{
+    margin-top: 20px !important;
+  }
+  .carousel , .slide{
+    width: 80% !important;
+  }
+}
+@media (max-width: 600px){
+  .men{
+    margin-top: 100px;
+    width: 35%;
+    font-size: 30px;
+  }
+  #services{
+    margin-top: -410px;
+  }
+
+	:root{
+		--h1-font: 3.7rem;
+	  --h2-font: 2.7rem;
+	}
+  .services-content{
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .box{
+    padding: 20px;
+    width: 400px;
+    height: fit-content;
+  }
+  .main-text h2{
+    font-size: 30px;
+  }
+  .main-text h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .card{
+    margin-top: 80px;
+  }
+  ul{
+    font-size: 16px;
+  }
+  .tit{
+    margin-top: 20px !important;
+  }
+  .carousel , .slide{
+    width: 80% !important;
+  }
+  .allList{
+    gap: 0px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  ul{
+    text-align: center;
+  }
+  .man{
+    height: fit-content;
+    width: fit-content;
+  }
+  .allMen{
+    gap: 0px;
+  }
+  .ulForMan{
+    gap: 0px;
+  }
+}
